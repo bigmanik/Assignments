@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+   
+}
+body{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.container{
+    border-radius: 10px;
+    margin: 10% 10% 10% 10%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80vh;
+    width: 70%;
+    background: white;
+    
+   
+}
+a{
+    text-decoration: none;
+}
+.d-head{
+    margin: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form .sub1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px 10px;
+    
+}
+.input-p{
+    height: 30px;
+    width: 100%;
+    margin: 10px 0px 7px;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 5px;
+}
+.input-p2{
+    height: 30px;
+    width: 100%;
+    margin: 10px 0px 7px;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
+}
+.input-p2 input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ 
+}
+
+.input-p input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+   
+    
+    
+}
+.sub1{
+    margin:40px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sub2{
+    margin:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+.btn{
+
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background-size: 120% auto;
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+      }
+      .btn {
+        background-position: right center;
+      }
+      .btn:active {
+        top: 2px;
+      }
+
+
+     
