@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@500&family=Oswald:wght@300;400&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.container{
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px ;
+}
+.item{
+    background: white;
+    padding: 20px;
+    border: blue 1px solid;
+}
+.item:nth-of-type(1){
+    background-color: orange;
+grid-column: 1 / span 2;
+
+}
+.item:nth-of-type(2){
+    height: 180px;
+    width: 180px;
+    background-color: yellow;
+}
+.item:nth-of-type(3){
+    background-color: green;
+    
+    width: 380px;
+    height: 160px;
+    grid-row: 2 / span 4;
+}
+.item:nth-of-type(4){
+    background-color: lightblue;
+    height: 79px;
+    grid-column: 2 /  span  3;
+    
+
+    
+    
+
+     
+
+}
+.item:nth-of-type(5){
+    background-color: lightblue;
+    height: 75px;
+    grid-column: 2 / span 3;
+   
+
+}
