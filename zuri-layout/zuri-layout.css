@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@500&family=Oswald:wght@300;400&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: white;
+    padding:30px ;
+     margin:10%;
+     height: 65vh;
+     width: 70%;
+}
+img{
+    width: 35px;
+}
+button{
+    height: 5vh;
+    width: 100px;
+    border: none;
+   border-radius: 25px;
+    margin: 45%  3%;
+    background: white;
+}
+.item{
+    height: 55vh;
+    padding: 20px;
+    width: 25%;
+    color: white;
+}
+ .items-1{
+    background-color: orange;
+    
+ }
+ .items-2{
+    background-color:rgba(0, 0, 255, 0.7);
+ }
+
+.items-3{
+    background-color: darkgreen;
+}
+.btn-1{
+    color: orange;
+}
+.btn-2{
+    color:rgba(0, 0, 255, 0.7) ;
+}
+.btn-3{
+    color:darkgreen ;
+}
